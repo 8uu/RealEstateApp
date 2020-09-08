@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.mylasttry.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="#37474F"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <TextView
+        android:id="@+id/companyname"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="MEHRAN BUILDERS"
+        android:textAlignment="center"
+        android:textColor="#3FF"
+        android:textSize="37dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textLogin"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:gravity="center_horizontal"
+        android:text="LOGIN"
+        android:layout_below="@id/companyname"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Email"
+        android:textColorHint="#FFF"
+        android:layout_below="@+id/textLogin"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/psswordText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="#FFF"
+        android:layout_below="@+id/emailtext"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@id/psswordText"
+        android:layout_marginLeft="159sp"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/textOr"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:gravity="center_horizontal"
+        android:text="OR"
+        android:layout_below="@id/btnLogin"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textOr"
+        android:layout_marginLeft="159sp"
+        android:text="Sign Up" />
+
+</RelativeLayout>

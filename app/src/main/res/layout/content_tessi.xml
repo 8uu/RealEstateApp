@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.test.mylasttry.tessi"
+    tools:showIn="@layout/activity_testi">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="7dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="7dp">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:background="@drawable/mypic">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Excellent properties at Jamshoro society phase-1, Street 1 OR other details"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="7dp">
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:background="@drawable/mypic">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Excellent properties at Jamshoro society phase-2, Street 2 OR other details"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="7dp">
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:background="@drawable/mypic">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Excellent properties at Jamshoro society phase-1, Street 3 OR other details"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="7dp">
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:background="@drawable/mypic">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Excellent properties at Jamshoro society phase-2, Street 4 OR other details"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="7dp">
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:background="@drawable/mypic">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Excellent properties at Jamshoro society phase-1, Street 5 OR other details"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="7dp">
+
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:background="@drawable/mypic">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Excellent properties at Jamshoro society phase-1, Street 6 OR other details"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

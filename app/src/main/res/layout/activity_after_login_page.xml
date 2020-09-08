@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37474F"
+    tools:context=".afterLoginPage">
+
+    <TextView
+        android:id="@+id/companyname"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="MEHRAN BUILDERS"
+        android:textAlignment="center"
+        android:textColor="#3FF"
+        android:textSize="37dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        //app:layout_constraintTop_toBottomOf="@+id/emptytext"
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="391dp"
+        android:layout_height="165dp"
+        android:layout_below="@id/companyname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/companyname"
+        app:srcCompat="@drawable/myapplogo" />
+
+
+    <Button
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/cardview_dark_background"
+        android:text="View Gallery"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <Button
+        android:id="@+id/locations"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/gallery"
+        android:layout_marginTop="34dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Our Locations"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gallery" />
+
+    <Button
+        android:id="@+id/testimonial"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/locations"
+        android:layout_marginTop="38dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Testimonials"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locations" />
+
+    <Button
+        android:id="@+id/btnContact"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/testimonial"
+        android:layout_marginTop="35dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Contact Us"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testimonial" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
